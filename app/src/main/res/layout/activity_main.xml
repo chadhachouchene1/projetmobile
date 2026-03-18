@@ -1,38 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F5F5">
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp">
 
-    <!-- Toolbar -->
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:background="#1565C0"
-        android:title="👥 Gestion des Membres"
-        android:titleTextColor="#FFFFFF"/>
-
-    <!-- Liste des membres -->
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:padding="8dp"
-        android:paddingTop="64dp"
-        android:clipToPadding="false"/>
-
-    <!-- Bouton Ajouter -->
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="16dp"
-        android:src="@android:drawable/ic_input_add"
-        app:backgroundTint="#1565C0"
-        app:tint="#FFFFFF"/>
+        android:text="📚 Bibliothèque"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"/>
 
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <Button
+        android:id="@+id/btn_livres"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Livres"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btn_membres"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Membres"/>
+
+</LinearLayout>
