@@ -40,4 +40,5 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    implementation("com.github.satyan:sugar:1.5") //on a ajouter SugarORM dans build.gradle
 }

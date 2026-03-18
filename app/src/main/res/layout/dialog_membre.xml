@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- Champ Prénom -->
+    <TextView
+        android:layout_width="99dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="4dp"
+        android:text="Prénom"
+        android:textColor="#1565C0"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etPrenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="Entrez le prénom"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Champ Nom -->
+    <TextView
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Nom"
+        android:textColor="#1565C0"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="Entrez le nom"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Champ Téléphone -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Téléphone"
+        android:textStyle="bold"
+        android:textColor="#1565C0"
+        android:layout_marginBottom="4dp"/>
+
+    <EditText
+        android:id="@+id/etTelephone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="Entrez le numéro"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:background="@android:drawable/editbox_background"/>
+
+</LinearLayout>
