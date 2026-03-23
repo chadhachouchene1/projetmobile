@@ -17,9 +17,9 @@
 
         <!-- ✅ Configuration SugarORM -->
         <meta-data android:name="DATABASE"            android:value="biblio.db" />
-        <meta-data android:name="VERSION"             android:value="1" />
+        <meta-data android:name="VERSION"             android:value="2" />
         <meta-data android:name="QUERY_LOG"           android:value="true" />
-        <meta-data android:name="DOMAIN_PACKAGE_NAME" android:value="com.example.biblio.model" />
+        <meta-data android:name="DOMAIN_PACKAGE_NAME" android:value="com.example.biblio" />
 
         <activity
             android:name=".MainActivity"
@@ -28,10 +28,11 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
+
         <activity android:name=".MembresActivity"/>
         <activity android:name=".LivresActivity"/>
+
     </application>
 
 </manifest>
