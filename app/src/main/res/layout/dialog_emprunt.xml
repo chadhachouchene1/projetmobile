@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Livre disponible"
+        android:textStyle="bold"
+        android:textColor="#1A1A2E"
+        android:layout_marginBottom="4dp"/>
+
+    <Spinner
+        android:id="@+id/sp_livre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_input"
+        android:padding="8dp"
+        android:layout_marginBottom="14dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Membre"
+        android:textStyle="bold"
+        android:textColor="#1A1A2E"
+        android:layout_marginBottom="4dp"/>
+
+    <Spinner
+        android:id="@+id/sp_membre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_input"
+        android:padding="8dp"
+        android:layout_marginBottom="14dp"/>
+
+    <Button
+        android:id="@+id/btn_date_emprunt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📅 Date d'emprunt"
+        android:backgroundTint="#1565C0"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="6dp"/>
+
+    <TextView
+        android:id="@+id/tv_date_emprunt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aucune date choisie"
+        android:textColor="#888888"
+        android:layout_marginBottom="14dp"/>
+
+    <Button
+        android:id="@+id/btn_date_retour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔙 Date de retour"
+        android:backgroundTint="#E65100"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="6dp"/>
+
+    <TextView
+        android:id="@+id/tv_date_retour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aucune date choisie"
+        android:textColor="#888888"/>
+
+</LinearLayout>
