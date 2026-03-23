@@ -20,5 +20,9 @@ public class MainActivity extends AppCompatActivity {
 
         btnMembres.setOnClickListener(v ->
                 startActivity(new Intent(this, MembresActivity.class)));
+
+        Button btnEmprunts = findViewById(R.id.btn_emprunts);
+        btnEmprunts.setOnClickListener(v ->
+                startActivity(new Intent(this, EmpruntsActivity.class)));
     }
 }

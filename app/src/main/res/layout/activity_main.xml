@@ -26,5 +26,11 @@
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:text="Membres"/>
+    <Button
+        android:id="@+id/btn_emprunts"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="🔄 Emprunts"
+        android:layout_marginTop="12dp"/>
 
 </LinearLayout>
